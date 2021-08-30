@@ -10,6 +10,10 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0;
 }
 
+a {
+    text-decoration: none;
+}
+
 header h1 {
     text-align: center;
     background: #22577A;
@@ -60,10 +64,42 @@ footer h1 {
     padding-top: 4px;
 }
 
-footer h2 {
+#modalBtn {
     font-weight: 500;
-    font-size: 24;
+    font-size: 24px;
     color: #C9D8B6;
     padding-top: 7px;
     padding-right: 10px;
+}
+
+#modalBtn:hover {
+    cursor: pointer;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    background: rgba(128, 237, 153, 0.5);
+}
+
+.modal-content {
+    background: #38A3A5;
+    margin: 5% auto;
+    padding: 2%;
+    width: 90%;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+.closeBtn {
+    color: #cccccc;
+    float: right;
+    font-size: 40px;
+    padding: 0 2px;
+    margin: 0 5px;
 }
