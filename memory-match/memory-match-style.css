@@ -1,0 +1,57 @@
+body {
+  height: 0vh;
+}
+
+section {
+  height: 78vh;
+}
+
+section h1 {
+  color: #22577A;
+}
+
+section .scores {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 10px;
+}
+
+section .scores div {
+  font-size: 30px;
+  color: #F3F1F5;
+}
+
+section .grid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 45vh;
+  height: 36vh;
+}
+
+section .grid img {
+  width: 11.2vh;
+}
+
+section .life-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 5vh;
+  height: 5vh;
+  margin: 10vh 17vh;
+}
+
+section .life-bar img {
+  padding: 0 2px;
+}
+/*# sourceMappingURL=memory-match-style.css.map */

@@ -36,28 +36,14 @@ header {
 
 section {
     background: #38A3A5;
-    color: #22577A;
     text-align: center;
     padding: 2em;
     margin-top: 1em;
-    .mg-t {
-        height: 2vh;
-    }
-
-    .card {
-        background: #80ED99;
-        padding: 1em;
-        border-radius: 15px;
-
-        .card-img {
-            width: 10vh;
-        }
-        
-        .title {
-            font-weight: 500;
-        }
-    }
 }
+
+.mg-t {
+    height: 2vh;
+  }
 
 footer {
     display: flex;
@@ -122,18 +108,6 @@ footer {
         .closeBtn:hover {
             cursor: pointer;
             color: white;
-        }
-    }
-}
-
-@media only screen and (min-width: 400px) {
-    section {
-        display: flex;
-        flex-wrap: wrap;
-
-        .card {
-            width: 26vw;
-            margin: 10px;
         }
     }
 }

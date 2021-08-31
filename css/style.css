@@ -1,0 +1,39 @@
+.mg-t {
+  height: 2vh;
+}
+
+.card {
+  background: #80ED99;
+  padding: 1em;
+  border-radius: 15px;
+}
+
+.card .card-img {
+  width: 10vh;
+}
+
+.card .title {
+  font-weight: 500;
+  color: #22577A;
+}
+
+@media only screen and (min-width: 400px) {
+  section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  section .card {
+    width: 26vw;
+    height: 80%;
+  }
+  section a {
+    margin: 10px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

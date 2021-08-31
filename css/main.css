@@ -36,28 +36,13 @@ header .logo {
 
 section {
   background: #38A3A5;
-  color: #22577A;
   text-align: center;
   padding: 2em;
   margin-top: 1em;
 }
 
-section .mg-t {
+.mg-t {
   height: 2vh;
-}
-
-section .card {
-  background: #80ED99;
-  padding: 1em;
-  border-radius: 15px;
-}
-
-section .card .card-img {
-  width: 10vh;
-}
-
-section .card .title {
-  font-weight: 500;
 }
 
 footer {
@@ -131,19 +116,5 @@ footer .logo {
 .modal .modal-content .closeBtn:hover {
   cursor: pointer;
   color: white;
-}
-
-@media only screen and (min-width: 400px) {
-  section {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-  }
-  section .card {
-    width: 26vw;
-    margin: 10px;
-  }
 }
 /*# sourceMappingURL=main.css.map */
